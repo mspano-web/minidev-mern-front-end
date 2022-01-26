@@ -8,7 +8,7 @@ This initiative contains the code of a mini development called "MiniDev". It is 
 
 ___
 
-Tecnologías / Technologies:
+## Tecnologías / Technologies
 
 * React
 * React Bootstrap
