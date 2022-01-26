@@ -16,7 +16,10 @@ Tecnologías / Technologies:
 * React Responsive
 * Axios
 * Redux
-* Typescript
+* TypeScript
+* CSS
+* HTML
+* JavaScript
 * Toastify
 * React Datepicker
 * Moment
