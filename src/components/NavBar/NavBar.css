@@ -1,0 +1,67 @@
+/**
+ * NavBar.css
+ */
+
+/* ------------------------------- */
+
+.menu-brand {
+    padding-left: 1rem;
+}
+
+/* ------------------------------- */
+
+.bar-menu-mb {
+    position: fixed; 
+    left: 0;        /* It is located at the bottom of the screen */
+    bottom: 0;      /* It is located at the bottom of the screen */
+    z-index: 999;   /* Prevent other content from overlapping and covering the menu. */
+    width: 100%;    /* Because it is in a fixed position, it loses its width and height characteristics. 
+                       Like the container in the bodysuit, the 100% width will occupy the width of the body. */
+    height: var(--menu-bar-height);  /* Menu height according to custom property in relative positions. */
+    background-color: var(--main-color);  /* Color of the menu bar. */
+  }
+  
+.menu-items-mb {
+    background-color: var(--main-color);
+    height: var(--menu-items-height);  /* Menu height according to custom property in relative positions. */
+    margin-left: 0;
+}
+
+
+/* ------------------------------- */
+
+.custom-button-menu {
+    font-size: 2rem;
+    font-family: var(--font);
+    color: var(--secondary-color);
+    background-color: var(--main-color-75);
+    padding: 1rem 2rem;
+    width: 100%; /* The button will take the width of the container. */
+    border:none;
+  }
+
+  .custom-button-menu:hover{
+    background-color: var(--secondary-color);
+  }
+
+/* ------------------------------- */
+  
+.bar-menu-dk {
+    background-color: var(--main-color);  /* Color of the menu bar. */
+    height: 3rem;  /* Menu height according to custom property in relative positions. */
+  }
+
+.item-menu-dk {
+    font-size: 1.5rem;
+    font-family: var(--font);
+    color: var(--secondary-color);
+    margin: 1rem 1rem;
+}
+  
+.item-menu-dk:hover {
+  color: var(--link-color);
+}
+   
+/* ------------------------------- */
+
+

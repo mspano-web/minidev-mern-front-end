@@ -1,0 +1,20 @@
+/** 
+ *   SelectProduct.css
+ */
+
+/* ------------------------------- */
+
+.product-search-title {
+  background-color: var(--third-color-75);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.product-item-card {
+  justify-content: space-evenly;
+  background-color: var(--third-color-75);
+  text-align: center;
+  gap: 1rem;
+}
+
+/* ------------------------------- */

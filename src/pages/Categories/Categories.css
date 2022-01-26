@@ -1,0 +1,17 @@
+/** 
+  *  Categories.css
+  */
+
+/* ------------------------------- */
+
+.category-styles {
+  background-color: var(--third-color-75);
+}
+
+.custom-carousel-location {
+  margin: auto;
+  max-width: 75vw;
+}
+
+/* ------------------------------- */
+

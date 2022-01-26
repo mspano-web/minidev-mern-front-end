@@ -1,0 +1,14 @@
+/**
+ * CustomPaginantio.css
+ */
+ 
+.results {
+    background-color: var(--link-color);
+    color: var(--grayscale-white-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:1rem;
+    padding-top: 12px;
+  }
+

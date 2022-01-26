@@ -1,0 +1,30 @@
+/** 
+ *   UpdaterUser.css
+ */
+
+/* ------------------------------- */
+
+.update-user-styles {
+  background-color: var(--third-color-75);
+  justify-content: space-evenly;
+}
+
+.update-user-card-body {
+  background-color: var(--grayscale-white-color);
+}
+
+.update-user-div-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-user-button-styles {
+  font-size: 1rem;
+  font-family: var(--font);
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+  padding: 1rem 2rem;
+}
+
+/* ------------------------------- */

@@ -1,0 +1,50 @@
+ /**
+ * AboutUs.css   
+ */
+
+/* ------------------------------- */
+
+.about-us {
+  background-color: var(--link-color);
+}
+
+.about-us-text {
+  color: var(--grayscale-white-color);
+}
+
+/* ------------------------------- */
+
+.about-us-primary-image-mb {
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------------------- */
+
+.about-us-primary-image-tb {
+  width: 100%;
+  height: 25%;
+  object-fit: cover;
+}
+
+.about-us-secondary-image-tb {
+  width: 48%;
+  height: 25%;
+  object-fit: cover;
+}
+
+/* ------------------------------- */
+
+.about-us-primary-image-dk {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.about-us-secondary-image-dk {
+  width: 48%;
+  height: 35%;
+  object-fit: cover;
+}
+
+/* ------------------------------- */

@@ -1,0 +1,33 @@
+/* 
+ *  SignIn.css
+ */
+
+/* ------------------------------- */
+
+.signin-card-body {
+  background-color: var(--grayscale-white-color);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sigin-div-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-button-styles {
+  font-size: 1rem;
+  font-family: var(--font);
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+  padding: 1rem 2rem;
+}
+
+/* ------------------------------- */
+
+.signin-styles {
+  background-color: var(--third-color-75);
+}
+
+/* ------------------------------- */

@@ -1,0 +1,17 @@
+/** 
+ *   ProductItemCard.css
+ */
+
+/* ------------------------------- */
+
+.product-item-card-content {
+    flex-direction:  row;
+    background-color:  var(--grayscale-dark-color);
+  }
+
+.product-styles-price {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  /* ------------------------------- */

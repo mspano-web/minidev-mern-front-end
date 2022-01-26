@@ -1,0 +1,16 @@
+/**
+ * UserMenu.css   
+ */
+
+/* ------------------------------- */
+
+.user-menu-styles {
+  background-color: var(--main-color);
+}
+
+.user-menu-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ------------------------------- */

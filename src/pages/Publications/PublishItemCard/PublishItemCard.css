@@ -1,0 +1,25 @@
+/** 
+ *   PublishItemCard.css
+ */
+
+/* ------------------------------- */
+
+.publications-styles-card {
+    background-color:  var(--grayscale-dark-color);
+    font-size: 2rem;
+  }
+
+  .publications-styles-card-subtitle {
+    font-size: 2rem;
+  }
+
+  /* ------------------------------- */
+
+.publication-card-mb {
+    flex-direction: row;
+    align-items: stretch;
+    background-color:  var(--grayscale-dark-color);
+  }
+
+  /* ------------------------------- */
+

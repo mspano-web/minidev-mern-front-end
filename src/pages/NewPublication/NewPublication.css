@@ -1,0 +1,57 @@
+/** 
+ *  NewPublication.css
+ */
+
+/* ------------------------------- */
+
+  .new-publication-title {
+    background-color:  var(--third-color-75);
+  }
+
+  .new-publication-container {
+    background-color:  var(--third-color-75);
+  }
+
+  .new-publication-row {
+    padding-top: 1rem;
+    min-height: 65vh;
+  }
+
+  .new-publication-card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-publication-created-date {
+    background-color:  var(--grayscale-dark-color);
+    text-align: center;
+  }
+
+  .new-publication-price {
+    max-width: 15vw;
+    text-align: right;
+  }
+
+  .new-publication-bottons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: auto;
+  }
+
+  .new-publication-carousel {
+    max-height: 65vh;
+    height: 65vh
+  }
+
+  .new-publication-confirm-button {
+    background-color: var(--main-color-75);
+    color: var(--secondary-color);
+  }
+  
+  .new-publication-cancel-button {
+    background-color: #E74C3C;
+    color: var(--secondary-color);
+  }
+  
+  /* ------------------------------- */

@@ -1,0 +1,20 @@
+/** 
+ *   Publications.css
+ */
+
+/* ------------------------------- */
+
+.publications-styles {
+  background-color: var(--third-color-75);
+}
+
+.pub-no-results {
+  background-color: var(--link-color);
+  color: var(--grayscale-white-color);
+  margin-right:1rem;
+  font-size: 2rem;
+  padding-top: 1 rem;
+  padding-bottom: 1rem;
+}
+
+/* ------------------------------- */
