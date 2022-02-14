@@ -41,6 +41,7 @@ ___
 * [Architecture Backend - Application Design](https://drive.google.com/file/d/1yUYB-EvBQW6lwn3F6RbT4zsfD00WGfW_/view?usp=sharing) - (Visio)
 * [Architecture Node.js - Basic Concepts Support](https://drive.google.com/file/d/1k18lJ4dawecBGuMEp8rrOBCm7UG4siwd/view?usp=sharing) - (Visio)
 * [Architecture Express.js - Basic Concepts Support](https://drive.google.com/file/d/1AxPiYZRQJXSrkz4oa2zw1E-xWfCTIO--/view?usp=sharing) - (Visio)
+* [Rendering web pages on the Node.js server - Support](https://drive.google.com/file/d/1_cF4osMkeCAXGzg-epDb8dzh0LszKC45/view?usp=sharing) - (Visio)
 
 *(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
 
