@@ -30,7 +30,7 @@ ___
 ## Información del proyecto / Project information
 
 * [Developer Web MS - Youtube channel](https://www.youtube.com/channel/UCnaIlIexr7P2KFrm9NGZZOQ) - (YOUTUBE)
-* [Developer Web MS - Contents](https://drive.google.com/file/d/1Ac8c0IVy9p8A_XWspltqoB0SDtgPCQMY/view?usp=sharing) - (HTML)
+* [Developer Web MS - Contenido - Español](https://drive.google.com/file/d/1PJwx7zNRXfadaVCq-4zK4KeLvOA0c49z/view?usp=sharing)[Content - English](https://drive.google.com/file/d/1dRNf2L29vA3pWP3h9WT9UT-6XyHn5yOh/view?usp=sharing) - (PDF) 
 
 ___
 
