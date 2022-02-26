@@ -48,6 +48,7 @@ ___
 * [Redux - Application State](https://drive.google.com/file/d/11y64zMLttygPL0nwny4Tg7BtOyBCL3ZI/view?usp=sharing) 
 * [Security](https://drive.google.com/file/d/16kvMAEMrwj-q-wOTvOztnjirC9JixGXz/view?usp=sharing)
 * [Pagination Design](https://drive.google.com/file/d/16QKeOpYEZsthRci1gC-bKI7D3wOkqTNR/view?usp=sharing)
+* [Front End Architecture - Application Design](ttps://drive.google.com/file/d/1J6U9dHXs7saHtsVqwVwGdJNnSfpUa9IT/view?usp=sharing)
 
 *(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
 
