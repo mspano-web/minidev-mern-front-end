@@ -25,7 +25,7 @@ export const servicePath = () => {
  */
 export const imagesPath = () => {
     if (process.env.NODE_ENV === "production") {
-        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_HOSTNAME}/`
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_HOSTNAME}${process.env.REACT_APP_SERVER_IMAGES}/`
     } else {
         return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}${process.env.REACT_APP_SERVER_IMAGES}`
     }
@@ -39,7 +39,7 @@ export const imagesPath = () => {
  */
 export const documentPath = () => {
     if (process.env.NODE_ENV === "production") {
-        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_HOSTNAME}/`
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_HOSTNAME}${process.env.REACT_APP_SERVER_DOCUMENTS}/`
     } else {
         return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}${process.env.REACT_APP_SERVER_DOCUMENTS}`
     }
