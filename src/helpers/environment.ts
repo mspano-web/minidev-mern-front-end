@@ -10,7 +10,11 @@
  * @returns - endpoint to access the services on the server.
  */
 export const servicePath = () => {
-    return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}/`
+    if (process.env.NODE_ENV === "production") {
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_HOSTNAME}/`
+    } else {
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}/`
+    }
 }
 
 /**
@@ -20,7 +24,11 @@ export const servicePath = () => {
  * @returns - path to access the images directory on the server.
  */
 export const imagesPath = () => {
-    return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}${process.env.REACT_APP_SERVER_IMAGES}`
+    if (process.env.NODE_ENV === "production") {
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_HOSTNAME}/`
+    } else {
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}${process.env.REACT_APP_SERVER_IMAGES}`
+    }
 }
 
 /**
@@ -30,7 +38,11 @@ export const imagesPath = () => {
  * @returns - path to access the documents directory on the server.
  */
 export const documentPath = () => {
-    return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}${process.env.REACT_APP_SERVER_DOCUMENTS}`
+    if (process.env.NODE_ENV === "production") {
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_HOSTNAME}/`
+    } else {
+        return `${process.env.REACT_APP_SERVER_PROTOCOL}://${process.env.REACT_APP_SERVER_IP}:${process.env.REACT_APP_SERVER_PORT}${process.env.REACT_APP_SERVER_DOCUMENTS}`
+    }
 }
 
 /* --------------------------------- */
